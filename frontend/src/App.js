@@ -47,7 +47,7 @@ const App = () => {
     const fileInputRef = useRef(null);
 
     // Backend URL (replace with your actual backend URL if different)
-    const BACKEND_URL = 'http://127.0.0.1:5000';
+    const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://127.0.0.1:5000';
 
     // Scroll to bottom of messages whenever they update
     useEffect(() => {
