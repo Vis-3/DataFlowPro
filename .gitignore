@@ -1,0 +1,30 @@
+# Python
+venv/
+__pycache__/
+.env
+*.pyc
+*.log
+.pytest_cache/
+.ipynb_checkpoints/
+*.db
+
+# Node/Frontend
+node_modules/
+build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.idea/ # For PyCharm/WebStorm users
+.vscode/ # For VS Code users (optional, if you don't want to share workspace settings)
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.csv # If you generate/download CSVs locally and don't want them tracked
